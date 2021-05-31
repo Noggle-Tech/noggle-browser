@@ -10,7 +10,7 @@ Python 3, PyQt5, PyQtWebEngine
 
 ### Windows and MacOS
 
-[https://www.python.org/downloads/](Download Python)
+[Download Python for Windows or Macintosh](https://www.python.org/downloads/)
 
 Get PyQt5 via pip
 `pip install PyQt5`
