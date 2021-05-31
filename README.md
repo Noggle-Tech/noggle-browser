@@ -1,5 +1,6 @@
 # Noggle Browser
 
+![Codacy Badge](https://app.codacy.com/project/badge/Grade/2b72901b108f4577a135faee054d0d6d)<br>
 **Please make sure you have all prerequisites installed before making an issue. Saves a lot of time. Thanks!**
 
 A new browsing experience that's really... really... slow. Not internet explorer slow, but whatever. Based on Chromium. Coded in Python using PyQt5. Designed for NationStates.
