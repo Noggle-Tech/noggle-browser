@@ -8,6 +8,6 @@ class SettingsWindow(QWidget):
         super().__init__()
         layout = QVBoxLayout()
         self.setFixedSize(QSize(300, 250))
-        self.label = QLabel('<h1><strong>ABOUT</strong><hr></h1>Noggle Browser a0.2<br><a href="https://github.com/noggle-tech/noggle-browser">Source Code (right click and copy the link)</a><br><br><em>2021 Noggle Technologies</em>')
+        self.label = QLabel('<h1><strong>ABOUT</strong><hr></h1>Noggle Browser a0.3<br><a href="https://github.com/noggle-tech/noggle-browser">Source Code (right click and copy the link)</a><br><br><em>2021 Noggle Technologies</em>')
         layout.addWidget(self.label)
         self.setLayout(layout)
