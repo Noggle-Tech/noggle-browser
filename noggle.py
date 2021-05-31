@@ -20,15 +20,19 @@ class MainWindow(QMainWindow):
         self.addToolBar(navbar)
 
         backbtn = QAction('<--', self)
+        backbtn.setToolTip('<em>Back</em>')
         backbtn.triggered.connect(self.browser.back)
         navbar.addAction(backbtn)
         fwdbtn = QAction('-->', self)
+        fwdbtn.setToolTip('<em>Forward</em>')
         fwdbtn.triggered.connect(self.browser.forward)
         navbar.addAction(fwdbtn)
         rwdbtn = QAction('🔄', self)
+        rwdbtn.setToolTip('<em>Reload</em>')
         rwdbtn.triggered.connect(self.browser.reload)
         navbar.addAction(rwdbtn)
         hombtn = QAction('🏠', self)
+        hombtn.setToolTip('<em>Home</em>')
         hombtn.triggered.connect(self.navigatehome)
         navbar.addAction(hombtn)
 
@@ -37,6 +41,7 @@ class MainWindow(QMainWindow):
         navbar.addWidget(self.urlbar)
 
         stnbtn = QAction('⚙️', self)
+        stnbtn.setToolTip('<em>Settings and About</em>')
         stnbtn.triggered.connect(self.opensettings)
         navbar.addAction(stnbtn)
 
