@@ -36,11 +36,11 @@ Python 3 should still come preinstalled on most Linux distributions. For PyQt5 a
 
 Some package lists:
 
-[Fedora](https://src.fedoraproject.org/)
-[Arch](https://archlinux.org/packages/)
-[Gentoo](https://packages.gentoo.org/)
-[Linux Mint](http://packages.linuxmint.com/)
-[Manjaro](https://discover.manjaro.org/packages/)
+[Fedora](https://src.fedoraproject.org/)<br>
+[Arch](https://archlinux.org/packages/)<br>
+[Gentoo](https://packages.gentoo.org/)<br>
+[Linux Mint](http://packages.linuxmint.com/)<br>
+[Manjaro](https://discover.manjaro.org/packages/)<br>
 
 ## Running the Program
 
