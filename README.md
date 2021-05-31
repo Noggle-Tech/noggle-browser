@@ -30,15 +30,17 @@ For PyQtWebEngine use `sudo apt install python3-pyqt5.qtwebengine`
 
 #### Other Distributions
 
+Yeah, I'll get around to the other distros eventually.
+
 Python 3 should still come preinstalled on most Linux distributions. For PyQt5 and PyQtWebEngine, check with your distribution's package list.
 
 Some package lists:
 
-[https://src.fedoraproject.org/](Fedora)
-[https://archlinux.org/packages/](Arch)
-[https://packages.gentoo.org/](Gentoo)
-[http://packages.linuxmint.com/](Linux Mint)
-[https://discover.manjaro.org/packages/](Manjaro)
+[Fedora](https://src.fedoraproject.org/)
+[Arch](https://archlinux.org/packages/)
+[Gentoo](https://packages.gentoo.org/)
+[Linux Mint](http://packages.linuxmint.com/)
+[Manjaro](https://discover.manjaro.org/packages/)
 
 ## Running the Program
 
