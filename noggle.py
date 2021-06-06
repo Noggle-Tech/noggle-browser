@@ -4,7 +4,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import *
 
-homepage = 'https://noggle-tech.github.io/noggle'
+homepage = 'https://noggle-tech.github.io/noggle/browser/welcome.html'
 
 class MainWindow(QMainWindow):
     def __init__(self):

@@ -11,6 +11,8 @@ Python 3, PyQt5, PyQtWebEngine
 
 ### Windows and MacOS
 
+On Windows, you should be able to run installdep.bat to install the dependencies. If that doesn't work, or you're on MacOS, do these steps below:
+
 [Download Python for Windows or Macintosh](https://www.python.org/downloads/)
 
 Get PyQt5 via pip
@@ -23,11 +25,7 @@ Get PyQtWebEngine via pip
 
 #### Debian and Ubuntu
 
-Python 3 should come preinstalled on your Debian installation and your Ubuntu installation if it isn't from 2008. Make sure it's on your installation by running `python3` on the command line.
-
-For PyQt5 use `sudo apt install python3-pyqt5`
-
-For PyQtWebEngine use `sudo apt install python3-pyqt5.qtwebengine`
+Run `./debianubuntu.bash` on your command line in the directory Noggle Browser is installed in to get the dependencies. If it says it is unexecutable, or something along those lines, run `chmod 755 debianubuntu.bash` in the directory Noggle Browser is installed in to make the file executable.
 
 #### Other Distributions
 
@@ -45,7 +43,7 @@ Some package lists:
 
 ## Running the Program
 
-Navigate to the directory the `noggle.py` file is in, which will be 2 directories down from the place you extracted to. Then run the command `python3 noggle.py` or run it directly from your file manager.
+Navigate to the directory the `noggle.py` file is in, which will be 2 directories down from the place you extracted to. Then run the command `python3 noggle.py` (or `py noggle.py`) or run it directly from your file manager.
 
 ## Known Issues
 
